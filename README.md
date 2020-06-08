@@ -3,65 +3,74 @@ Some examples of advanced feature in csharp
 
 1 - Integer to string
   -
-  Write an integer to string function without using any built-in functionality, conversions or castings with a base of up to 16. The allocation should be handled on behalf of the caller.
+  **Write an integer to string function without using any built-in functionality, conversions or castings with a base of up to 16. The allocation should be handled on behalf of the caller.**
 
-I’ve developed and implemented 2 solutions in a Visual Studio Project: 
-  **A.Using Recursive Function** 
+I’ve developed and implemented 2 solutions in a Visual Studio Project:
+
+  **A.Using Recursive Function**\ 
   **B.Using Recursive Function Using a non Recursive Function**
   
 2 - Matrix traversal
   -
-  Write a function that prints the values of the matrix clockwise.
+  **Write a function that prints the values of the matrix clockwise.**
 
-**In this solution I’ve developed a reusable, extensible and maintainable solution.**
+In this solution I’ve developed a reusable, extensible and maintainable solution.
+-
 
 The main Class : MatrixMovementPattern has the main responsibility to move through the matrix.
 
 We must to define an Iteration Pattern to set a path to move in the matrix. I’ve implemented 2 Iteration Pattern:
 
-1. Clockwise Iteration Pattern
-2. Counter Clockwise Iteration Pattern
+**1. Clockwise Iteration Pattern**
+**2. Counter Clockwise Iteration Pattern**
 
 Using the same algorithm to move in the matrix and only defining a new iteration pattern we can get different results.
 
 3- C# Types
   -
-  Difference between value, reference and pointer types in C#.
+  **Difference between value, reference and pointer types in C#.**
   
 **Structs**
+
 The structs are more efficient that class. Is more recommended use when we want to define small lightweight objects, if you want to use thousands or more objects of that type is more efficient to define them as structures.
 
-Primitive Types:
+**Primitive Types:**
 
+```
 Int\
 Char\
 Float\
 Bool
+```
 
-Non-Primitive Types:
+**Non-Primitive Types:**
 
+```
 Classes\
 Structures\
 Arrays\
 Strings
+```
 
 Primitives types are very small types and for that them are Structures.
 The primitives and non-primitives Types are tried differently at runtime ways in terms of memories management.
 
 **Reference Type** and **Value Type**
 
-Value Types\
+**Value Types**
 
-Structures:
+**Structures:**
 
 -Allocated on the Stack
+
 -Memory Allocations is done Automatically
 
-Reference Types\
+**Reference Types**
 
 Classes:
 
 -Allocated on the Heap
+
 -We must to Allocate memory manually
 
 When we created a variable that is a **value type** a part of memory called Stack is allocated for that variable. The memory allocation is done automatically we don’t have to worry about it. When this variable is out of the scope it’ll be immediately get remove.
@@ -86,7 +95,7 @@ The operator * can be used to get the contents at the location pointed to by the
 
 4- Write a small JSON serializer in C#
   -
-  Write an object serialization system that can serialize instances into JSON data and deserialize them again from JSON data. The main concerns are that the serializer should be declarative using attributes.
+  **Write an object serialization system that can serialize instances into JSON data and deserialize them again from JSON data. The main concerns are that the serializer should be declarative using attributes.**
   
 I’ve developed a system to deserialize objects but using c# natives functions.
 I’ve written an Attribute Class (JSONFieldAttribute) to validate properties and field.
@@ -95,6 +104,6 @@ Using the attributes in a class that inherits the base serializable class we can
 
 5- Unity - Task Runner
   -
-  Write a Producer/Consumer like task runner in Unity to be able to run long lasting tasks on different threads.
+  **Write a Producer/Consumer like task runner in Unity to be able to run long lasting tasks on different threads.**
   
   I’ve developed the solution in a project in Unity.
