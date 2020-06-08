@@ -7,8 +7,9 @@ Some examples of advanced feature in csharp
 
 I’ve developed and implemented 2 solutions in a Visual Studio Project:
 
-  **A.Using Recursive Function**\ 
-  **B.Using Recursive Function Using a non Recursive Function**
+  **-Using Recursive Function** 
+  
+  **-Using Recursive Function Using a non Recursive Function**
   
 2 - Matrix traversal
   -
@@ -21,8 +22,9 @@ The main Class : MatrixMovementPattern has the main responsibility to move throu
 
 We must to define an Iteration Pattern to set a path to move in the matrix. I’ve implemented 2 Iteration Pattern:
 
-**1. Clockwise Iteration Pattern**
-**2. Counter Clockwise Iteration Pattern**
+**-Clockwise Iteration Pattern**
+
+**-Counter Clockwise Iteration Pattern**
 
 Using the same algorithm to move in the matrix and only defining a new iteration pattern we can get different results.
 
@@ -37,25 +39,23 @@ The structs are more efficient that class. Is more recommended use when we want 
 **Primitive Types:**
 
 ```
-Int\
-Char\
-Float\
+Int
+Char
+Float
 Bool
 ```
 
 **Non-Primitive Types:**
 
 ```
-Classes\
-Structures\
-Arrays\
+Classes
+Structures
+Arrays
 Strings
 ```
 
 Primitives types are very small types and for that them are Structures.
 The primitives and non-primitives Types are tried differently at runtime ways in terms of memories management.
-
-**Reference Type** and **Value Type**
 
 **Value Types**
 
